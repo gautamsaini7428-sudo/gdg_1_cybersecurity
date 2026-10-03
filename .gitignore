@@ -1,0 +1,43 @@
+# Environment Variables
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+
+# Dependencies
+node_modules/
+.npm/
+
+# Build artifacts
+dist/
+build/
+.tsbuildinfo
+
+# SQLite Database and WAL journals
+*.db
+*.db-shm
+*.db-wal
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Editor & Tooling
+.kilo/
+.vscode/
+reference/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+

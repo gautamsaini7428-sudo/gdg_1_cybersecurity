@@ -1,0 +1,9 @@
+{
+  "name": "@secure-login/shared",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.24.4"
+  }
+}
